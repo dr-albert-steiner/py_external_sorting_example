@@ -13,7 +13,7 @@ max_row_len = args.max_row_length
 available_ram = args.available_ram
 out_file = args.output
 
-chars = "1234567890abcdefghijklmnoprstyqwxz "
+chars = "1234567890abcdefghijklmnoprstyqwxz"
 
 with open(out_file, "w+") as f:
     f.truncate()
